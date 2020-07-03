@@ -1,9 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Libre+Baskerville&family=Lobster&family=Piedra&display=swap');
+
+
 .container {
     width: auto;
     max-width: 680px;
     padding: 0 15px;
   }
   
-  .footer {
-    background-color: #f5f5f5;
+  
+  body {
+    font-family: 'Libre Baskerville', serif;
+  }
+  footer {
+    background-color: #000;
+  }
+  .contactButtonContainer{
+    background-color: #000; 
+  }
+  .contactButton{
+    text-align: center;
+  }
+  h1{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+  }
+  hr{
+    border: 1px solid red; width: 50%;
+  }
+  .contactContainer{
+    padding: 0;
+  }
+  .redline{
+    height: 100%; margin: 0;
   }
