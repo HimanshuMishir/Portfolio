@@ -11,11 +11,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <!-- Google fonts -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Lobster&family=Piedra&family=Libre+Baskerville&display=swap"
-        rel="stylesheet">
-
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/874f4993e8.js" crossorigin="anonymous"></script>
 
@@ -39,24 +34,24 @@
                     <a class="nav-link" href="#"><i class="fas fa-home">Home</i> <span
                             class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item" style="padding-left: 20px; padding-right: 20px;">
+                <li class="nav-item dropDown">
                     <a class="nav-link" href="#skills">Skills</a>
                 </li>
-                <li class="nav-item dropdown " style="padding-left: 20px; padding-right: 20px;">
+                <li class="nav-item dropdown dropDown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Services
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Web Development</a>
-                        <a class="dropdown-item" href="#">Networking</a>
+                        <a class="dropdown-item" href="#WD">Web Development</a>
+                        <a class="dropdown-item" href="#Net">Networking</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Banking & Finince</a>
-                        <a class="dropdown-item" href="#">Marketing</a>
+                        <a class="dropdown-item" href="#Bank">Banking & Finince</a>
+                        <a class="dropdown-item" href="#Mkt">Marketing</a>
                     </div>
                 </li>
-                <li class="nav-item" style="padding-left: 20px; padding-right: 20px;">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact me</a>
+                <li class="nav-item dropDown">
+                    <a class="nav-link" href="#contact">Contact me</a>
                 </li>
             </ul>
 
@@ -66,18 +61,18 @@
 
     <!-- Main content -->
 
-    <div class="row" style="margin: 0;">
+    <div class="row row1">
 
 
         <div class="col-lg-6 container" style="padding: 0; ">
-            <p class="card-text" style=" margin-left: 17px; margin-top: 20px; font-family: 'Lobster', cursive;">
+            <p class="card-text hello">
                 Hello!</p>
 
             <div class="container" style="text-align: center; margin-top: 12%;">
-                <h1 class="card-title" style="font-size: 70px; font-family: 'Lobster', cursive; ">I'm Himanshu
+                <h1 class="card-title mainHeading" >I'm Himanshu
                     Mishra
                 </h1>
-                <p class="card-text" style="font-family: 'Libre Baskerville', serif;color: brown;">A Financial
+                <p class="card-text" style="color: brown;">A Financial
                     advisor that can help you manage all your financial activities. Do whatever you want and don't
                     worry
                     about financial situauion. </p>
@@ -85,8 +80,7 @@
         </div>
         <div class="col-lg-6">
 
-            <img class="img-fluid float-right" src="./Images/icon1.png" style="max-width: 100%; position:relative; "
-                alt="Himanshu">
+            <img class="img-fluid float-right myImg" src="./Images/icon1.png" alt="Himanshu">
         </div>
         <!-- Horizontal Line-->
         <div class="container-fluid redLine">
@@ -100,50 +94,58 @@
 
     <!-- Skills -->
 
-    <div class="container-fluid" id="skills" style="padding: 0;">
+    <div class="container-fluid skillSection" id="skills">
         <div>
             <h1>Skills</h1>
+        
+        
+            <p class="skillsPara">A skill is the ability to perform an action with determined results often within a given amount of time,
+                energy, or both. Skills can often be divided into domain-general and domain-specific skills. For
+                example, in the domain of work, some general skills would include time management, teamwork and
+                leadership, self-motivation and others, whereas domain-specific skills would be used only for a certain
+                job. Skill usually requires certain environmental stimuli and situations to assess the level of skill
+                being shown and used.
+            </p>
         </div>
 
 
-
-        <div class="row">
-            <div class="col-lg-6 col-sm-1" style="align-content: center;">
-                <div class="card" style=" align-items: center;">
+        <div class="row row1">
+            <div class="col-lg-6 col-sm-1 card1">
+                <div class="card">
                     <img src="./Images/programming.jpg" class="card-img-top" alt="...">
 
                     <div class="card-body" style="width: 100%;">
                         <h5 class="card-title">Computing Skills</h5>
 
-                        <div class="progress" style="width: 100%; height:25px">
-                            <div class="progress-bar" style="width:90%;height:25px">
+                        <div class="progress" style="width: 100%; height:28px">
+                            <div class="progress-bar" style="width:90%;height:28px">
                                 Front End Development(HTML, CSS, Javascript, ReactJs, Bootstrap)
                             </div>
                         </div>
                         <br>
-                        <div class="progress" style="height:25px">
-                            <div class="progress-bar" style="width:80%;height:25px">
+                        <div class="progress" style="height:28px">
+                            <div class="progress-bar" style="width:80%;height:28px">
                                 Backend Development(Node Js, MongoDB)
                             </div>
                         </div>
                         <br>
-                        <div class="progress" style="height:25px">
-                            <div class="progress-bar" style="width:55%;height:25px">Networking</div>
+                        <div class="progress" style="height:28px">
+                            <div class="progress-bar" style="width:55%;height:28px">Networking</div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-1">
+            <div class="col-lg-6 col-sm-1 card1">
                 <div class="card">
                     <img src="./Images/trading.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Non-Computing Skills</h5>
-                        <div class="progress" style="height:25px">
-                            <div class="progress-bar" style="width:90%;height:25px">Banking & Finance</div>
+                        <div class="progress" style="height:28px">
+                            <div class="progress-bar" style="width:90%;height:28px">Banking & Finance</div>
                         </div>
                         <br>
-                        <div class="progress" style="height:25px">
-                            <div class="progress-bar" style="width:50%;height:25px">Marketing</div>
+                        <div class="progress" style="height:28px">
+                            <div class="progress-bar" style="width:50%;height:28px">Marketing</div>
                         </div>
                     </div>
                 </div>
@@ -162,53 +164,66 @@
     <div class="container-fluid" id="services">
         <div>
             <h1>Services</h1>
+        
+        
+            <p class="skillsPara">
+                Services which I can offer to you &amp; your company are .......
+            </p>
         </div>
-        <div class="row">
-            <div class="col-lg-3 col-sm-1 card1" >
-                <div class="card" >
+        <div class="row row1">
+            <div class="col-lg-3 col-sm-1 card1">
+                <div class="card">
                     <img src="./Images/webDevelopment.png" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <div class="card-body" id="WD">
                         <h5 class="card-title">Web Development</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                            of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Know More</a>
+                        <p class="card-text">Web development is the work involved in developing a website for the
+                            Internet or an intranet. Web development can range from developing a simple single static
+                            page of plain text to complex web-based internet applications, electronic businesses, and
+                            social network services.</p>
+                        <a href="https://en.wikipedia.org/wiki/Web_development" class="btn btn-primary"
+                            target="_blank">Know More</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-1 card1">
                 <div class="card">
                     <img src="./Images/networking.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <div class="card-body" id="Net">
                         <h5 class="card-title">Networking</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                            of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Know More</a>
+                        <p class="card-text">A computer network is a group of computers that use a set of common
+                            communication protocols over digital interconnections for the purpose of sharing resources
+                            located on or provided by the network nodes.Networking is one of the most important features
+                            of computers.</p>
+                        <a href="https://en.wikipedia.org/wiki/Computer_network" class="btn btn-primary"
+                            target="_blank">Know More</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-1 card1">
-                <div class="card" >
+                <div class="card">
                     <img src="./Images/Banking.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <div class="card-body" id="Bank">
                         <h5 class="card-title">Banking</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                            of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Know More</a>
+                        <p class="card-text">Banking is an industry that handles cash, credit, and other financial
+                            transactions. Banks provide a safe place to store extra cash and credit. They offer savings
+                            accounts, certificates of deposit, and checking accounts. Banks use these deposits to make
+                            loans. These loans include home mortgages, business loans, and car loans.</p>
+                        <a href="https://www.thebalance.com/what-is-banking-3305812" class="btn btn-primary"
+                            target="_blank">Know More</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-1 card1">
-                <div class="card" >
+                <div class="card">
                     <img src="./Images/Marketing.png" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <div class="card-body" id="Mkt">
                         <h5 class="card-title">Marketing</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                            of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Know More</a>
+                        <p class="card-text">Marketing is the study and management of exchange relationships. It is the
+                            business process of identifying, anticipating and satisfying customers' needs and wants.
+                            Because marketing is used to attract customers, it is one of the primary components of
+                            business management and commerce.</p>
+                        <a href="https://en.wikipedia.org/wiki/Marketing" class="btn btn-primary" target="_blank">Know
+                            More</a>
                     </div>
                 </div>
             </div>
@@ -223,7 +238,7 @@
 
     <div class="container-fluid contactContainer" id="contact">
         <div>
-            <h1 >Contact Me!</h1>
+            <h1>Contact Me!</h1>
         </div>
         <div class="contactButtonContainer">
             <div class="contactButton">
