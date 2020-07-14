@@ -7,6 +7,7 @@
 
 body {
   font-family: 'Libre Baskerville', serif;
+  background-color: #244570;
 }
 
 .card1 {
@@ -51,13 +52,15 @@ h5 {
 }
 
 hr {
-  border: 1px solid red;
+  border: 2px solid red;
   width: 50%;
+  border-radius: 2px;
 }
 
 .mainHeading {
   font-size: 70px;
   font-family: 'Lobster', cursive;
+  color: ivory;
 }
 
 .myImg {
@@ -73,14 +76,20 @@ hr {
   height: 28px,
 }
 
-.redline {
+.redLine {
   height: 100%;
   margin: 0;
 }
 
+
 .row1 {
   margin: 0;
-  margin-top: 15px;
+  background-color: #244570;
+}
+
+.rowImage {
+  background: url("../Images/background.jpg") top center no-repeat;
+  width: 100%;
 }
 
 .skillsPara {
@@ -88,8 +97,12 @@ hr {
   margin: auto;
   text-align: center;
   align-items: center;
+  padding-bottom: 15px;
 }
 
 .skillSection {
   align-items: center;
+}
+.smalltext{
+  color: #000;
 }
