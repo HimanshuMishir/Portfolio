@@ -1,4 +1,3 @@
-<!-- Starting -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,21 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#244570">
-    <title>Himanshu, "Financial Advisor"</title>
+    <meta name="description" content="Himanshu Mishra - Experienced Financial Advisor specializing in Backend Technologies, DevOps, Node.js, Golang, and more.">
+    <meta name="keywords" content="Himanshu Mishra, Financial Advisor, Backend Developer, DevOps, Node.js, Golang, Web Development, Networking, Banking, Marketing">
+    <meta name="author" content="Himanshu Mishra">
+    <title>Himanshu Mishra - Financial Advisor & Backend Developer</title>
     <link rel="shortcut icon" href="./Images/icon1.png" type="image/x-icon">
-    <!-- Bootstrap cdn  -->
+    <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <!-- fontawesome -->
-    <script src="https://kit.fontawesome.com/874f4993e8.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKVB5DyUVITf3/VhLwlfEFoIIcx1IQVb5GTfC7h2M6jtue+PcCm3Hbg3hRqj8o6uv0O7dZg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Piedra&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Custom Stylesheet -->
     <link href="./Styles/styles.css" rel="stylesheet">
-
 </head>
 
 <body>
-
     <!-- NavBar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand text-primary" href="#" style="font-family: 'Piedra', cursive;">Himanshu Mishra</a>
@@ -32,313 +38,220 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#"><i class="fas fa-home">Home</i> <span
-                            class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#"><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item dropDown">
-                    <a class="nav-link" href="#skills">Skills</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills"><i class="fas fa-tools"></i> Skills</a>
                 </li>
-                <li class="nav-item dropdown dropDown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Services
+                        Services <i class="fas fa-concierge-bell"></i>
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#WD">Web Development</a>
-                        <a class="dropdown-item" href="#Net">Networking</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#Bank">Banking & Finince</a>
-                        <a class="dropdown-item" href="#Mkt">Marketing</a>
+                    <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+                        <a class="dropdown-item" href="#web-development">Web Development</a>
+                        <a class="dropdown-item" href="#networking">Networking</a>
+                        <a class="dropdown-item" href="#banking-finance">Banking & Finance</a>
+                        <a class="dropdown-item" href="#marketing">Marketing</a>
                     </div>
                 </li>
-                <li class="nav-item dropDown">
-                    <a class="nav-link" href="#contact">Contact me</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contact Me</a>
                 </li>
             </ul>
-
         </div>
     </nav>
 
-
-    <!-- Main content -->
-    <section class="row1">
-
-        <div class="row row1 rowImage">
-
-
-            <div class="col-lg-6 container" style="padding: 0; ">
-                <p class="card-text hello">
-                    Hello!</p>
-
-                <div class="container" style="text-align: center; margin-top: 12%;">
-                    <h1 class="card-title mainHeading">I'm Himanshu
-                        Mishra
-                    </h1>
-                    <p class="card-text smalltext">A Financial
-                        advisor that can help you manage all your financial activities. Do whatever you want and don't
-                        worry
-                        about financial situauion. </p>
-                </div>
-            </div>
-            <div class="col-lg-6">
-
-                <img class="img-fluid float-right myImg" src="./Images/icon1.png" alt="Himanshu">
-            </div>
+    <!-- Main Content -->
+    <header class="jumbotron jumbotron-fluid text-center bg-light">
+        <div class="container">
+            <h1 class="display-4">Hello! I'm Himanshu Mishra</h1>
+            <p class="lead">A Financial Advisor & Backend Developer with over 3 years of experience in managing financial activities and developing robust backend systems using Node.js, Golang, and DevOps practices.</p>
+            <img src="./Images/icon1.png" class="img-fluid rounded-circle my-4" alt="Himanshu Mishra" width="150" height="150">
+            <a href="#contact" class="btn btn-primary btn-lg"><i class="fas fa-paper-plane"></i> Get in Touch</a>
         </div>
+    </header>
 
-        <!-- Horizontal Line-->
-
-        <div class="redLine">
-            <hr>
-        </div>
-    </section>
-
-
-
-    <!-- Skills -->
-    <section class="row1">
-
-        <div class="container-fluid skillSection" id="skills">
-            <div>
-                <h1>Skills</h1>
-
-
-                <p class="skillsPara">A skill is the ability to perform an action with determined results often within a
-                    given amount of time,
-                    energy, or both. Skills can often be divided into domain-general and domain-specific skills. For
-                    example, in the domain of work, some general skills would include time management, teamwork and
-                    leadership, self-motivation and others, whereas domain-specific skills would be used only for a
-                    certain
-                    job. Skill usually requires certain environmental stimuli and situations to assess the level of
-                    skill
-                    being shown and used.
-                </p>
-            </div>
-
-
-            <div class="row row1">
-                <div class="col-lg-6 col-sm-1 card1">
-                    <div class="card">
-                        <img src="./Images/programming.jpg" class="card-img-top" alt="...">
-
-                        <div class="card-body" style="width: 100%;">
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-white">
+        <div class="container">
+            <h2 class="text-center mb-4">Skills</h2>
+            <p class="text-center mb-5">Leveraging a combination of domain-general and domain-specific skills to deliver exceptional results in both financial advisory and backend development.</p>
+            <div class="row">
+                <!-- Computing Skills -->
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="./Images/programming.jpg" class="card-img-top" alt="Computing Skills">
+                        <div class="card-body">
                             <h5 class="card-title">Computing Skills</h5>
-
-                            <div class="progress" style="width: 100%; height:28px">
-                                <div class="progress-bar" style="width:90%;height:28px;background-color: #244570;">
-                                    Front End Development(HTML, CSS, Javascript, ReactJs, Bootstrap)
-                                </div>
+                            <ul class="list-unstyled">
+                                <li><strong>Frontend Development:</strong> HTML, CSS, JavaScript, React.js, Bootstrap</li>
+                                <li><strong>Backend Development:</strong> Node.js, Golang, MongoDB, Express.js</li>
+                                <li><strong>DevOps:</strong> Docker, Kubernetes, Jenkins, AWS</li>
+                                <li><strong>Networking:</strong> Network Configuration, Security Protocols</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <div class="progress mb-2" style="height: 20px;">
+                                <div class="progress-bar" role="progressbar" style="width: 90%; background-color: #244570;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Frontend Development - 90%</div>
                             </div>
-                            <br>
-                            <div class="progress" style="height:28px">
-                                <div class="progress-bar" style="width:80%;height:28px;background-color: #244570;">
-                                    Backend Development(Node Js, MongoDB)
-                                </div>
+                            <div class="progress mb-2" style="height: 20px;">
+                                <div class="progress-bar" role="progressbar" style="width: 85%; background-color: #244570;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">Backend Development - 85%</div>
                             </div>
-                            <br>
-                            <div class="progress" style="height:28px">
-                                <div class="progress-bar" style="width:55%;height:28px;background-color: #244570;">Networking</div>
+                            <div class="progress mb-2" style="height: 20px;">
+                                <div class="progress-bar" role="progressbar" style="width: 80%; background-color: #244570;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">DevOps - 80%</div>
+                            </div>
+                            <div class="progress" style="height: 20px;">
+                                <div class="progress-bar" role="progressbar" style="width: 75%; background-color: #244570;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Networking - 75%</div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-sm-1 card1">
-                    <div class="card">
-                        <img src="./Images/trading.jpg" class="card-img-top" alt="...">
+                <!-- Non-Computing Skills -->
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="./Images/trading.jpg" class="card-img-top" alt="Non-Computing Skills">
                         <div class="card-body">
                             <h5 class="card-title">Non-Computing Skills</h5>
-                            <div class="progress" style="height:28px">
-                                <div class="progress-bar" style="width:90%;height:28px;background-color: #244570;">Banking & Finance</div>
+                            <ul class="list-unstyled">
+                                <li><strong>Financial Management:</strong> Investment Planning, Risk Assessment</li>
+                                <li><strong>Marketing:</strong> Digital Marketing, SEO, Content Strategy</li>
+                                <li><strong>Leadership:</strong> Team Management, Project Coordination</li>
+                                <li><strong>Communication:</strong> Client Relations, Presentation Skills</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <div class="progress mb-2" style="height: 20px;">
+                                <div class="progress-bar" role="progressbar" style="width: 90%; background-color: #244570;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Financial Management - 90%</div>
                             </div>
-                            <br>
-                            <div class="progress" style="height:28px">
-                                <div class="progress-bar" style="width:50%;height:28px;background-color: #244570;">Marketing</div>
+                            <div class="progress mb-2" style="height: 20px;">
+                                <div class="progress-bar" role="progressbar" style="width: 70%; background-color: #244570;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">Marketing - 70%</div>
+                            </div>
+                            <div class="progress mb-2" style="height: 20px;">
+                                <div class="progress-bar" role="progressbar" style="width: 80%; background-color: #244570;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">Leadership - 80%</div>
+                            </div>
+                            <div class="progress" style="height: 20px;">
+                                <div class="progress-bar" role="progressbar" style="width: 85%; background-color: #244570;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">Communication - 85%</div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Horizontal Line-->
-                <div class="container-fluid redLine">
-                    <hr>
-                </div>
-
-
             </div>
+            <!-- Divider -->
+            <hr class="my-5">
         </div>
     </section>
 
-    <!-- Services -->
-
-    <section class="row1">
-
-        <div class="container-fluid" id="services">
-            <div>
-                <h1>Services</h1>
-
-
-                <p class="skillsPara">
-                    Services which I can offer to you &amp; your company are .......
-                </p>
-            </div>
-            <div class="row row1">
-                <div class="col-lg-3 col-sm-1 card1">
-                    <div class="card">
-                        <img src="./Images/webDevelopment.png" class="card-img-top" alt="...">
-                        <div class="card-body" id="WD">
+    <!-- Services Section -->
+    <section id="services" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Services</h2>
+            <p class="text-center mb-5">Offering a range of services to help you and your company achieve your financial and technological goals.</p>
+            <div class="row">
+                <!-- Web Development -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="./Images/webDevelopment.png" class="card-img-top" alt="Web Development">
+                        <div class="card-body" id="web-development">
                             <h5 class="card-title">Web Development</h5>
-                            <p class="card-text">Web development is the work involved in developing a website for the
-                                Internet or an intranet. Web development can range from developing a simple single
-                                static
-                                page of plain text to complex web-based internet applications, electronic businesses,
-                                and
-                                social network services.</p>
-                            <a href="https://en.wikipedia.org/wiki/Web_development" class="btn btn-primary"
-                                target="_blank">Know More</a>
+                            <p class="card-text">Designing and developing responsive and scalable websites using modern technologies to ensure a seamless user experience.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://en.wikipedia.org/wiki/Web_development" class="btn btn-primary btn-block" target="_blank" aria-label="Learn more about Web Development">Know More <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-1 card1">
-                    <div class="card">
-                        <img src="./Images/networking.jpg" class="card-img-top" alt="...">
-                        <div class="card-body" id="Net">
+                <!-- Networking -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="./Images/networking.jpg" class="card-img-top" alt="Networking">
+                        <div class="card-body" id="networking">
                             <h5 class="card-title">Networking</h5>
-                            <p class="card-text">A computer network is a group of computers that use a set of common
-                                communication protocols over digital interconnections for the purpose of sharing
-                                resources
-                                located on or provided by the network nodes.Networking is one of the most important
-                                features
-                                of computers.</p>
-                            <a href="https://en.wikipedia.org/wiki/Computer_network" class="btn btn-primary"
-                                target="_blank">Know More</a>
+                            <p class="card-text">Implementing and managing robust network infrastructures to ensure secure and efficient communication within your organization.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://en.wikipedia.org/wiki/Computer_network" class="btn btn-primary btn-block" target="_blank" aria-label="Learn more about Networking">Know More <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-1 card1">
-                    <div class="card">
-                        <img src="./Images/Banking.jpg" class="card-img-top" alt="...">
-                        <div class="card-body" id="Bank">
-                            <h5 class="card-title">Banking</h5>
-                            <p class="card-text">Banking is an industry that handles cash, credit, and other financial
-                                transactions. Banks provide a safe place to store extra cash and credit. They offer
-                                savings
-                                accounts, certificates of deposit, and checking accounts. Banks use these deposits to
-                                make
-                                loans. These loans include home mortgages, business loans, and car loans.</p>
-                            <a href="https://www.thebalance.com/what-is-banking-3305812" class="btn btn-primary"
-                                target="_blank">Know More</a>
+                <!-- Banking & Finance -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="./Images/Banking.jpg" class="card-img-top" alt="Banking & Finance">
+                        <div class="card-body" id="banking-finance">
+                            <h5 class="card-title">Banking & Finance</h5>
+                            <p class="card-text">Providing expert financial advisory services to help you manage investments, savings, and financial planning effectively.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://www.thebalance.com/what-is-banking-3305812" class="btn btn-primary btn-block" target="_blank" aria-label="Learn more about Banking & Finance">Know More <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-1 card1">
-                    <div class="card">
-                        <img src="./Images/Marketing.png" class="card-img-top" alt="...">
-                        <div class="card-body" id="Mkt">
+                <!-- Marketing -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="./Images/Marketing.png" class="card-img-top" alt="Marketing">
+                        <div class="card-body" id="marketing">
                             <h5 class="card-title">Marketing</h5>
-                            <p class="card-text">Marketing is the study and management of exchange relationships. It is
-                                the
-                                business process of identifying, anticipating and satisfying customers' needs and wants.
-                                Because marketing is used to attract customers, it is one of the primary components of
-                                business management and commerce.</p>
-                            <a href="https://en.wikipedia.org/wiki/Marketing" class="btn btn-primary"
-                                target="_blank">Know
-                                More</a>
+                            <p class="card-text">Developing strategic marketing campaigns that increase brand awareness and drive business growth.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://en.wikipedia.org/wiki/Marketing" class="btn btn-primary btn-block" target="_blank" aria-label="Learn more about Marketing">Know More <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
-                <!-- Horizontal Line-->
-                <div class="container-fluid redLine">
-                    <hr>
-                </div>
             </div>
-        </div>
-    </section>
-    <!-- Contact me! -->
-
-    <section class="row1">
-
-        <div class="container-fluid contactContainer" id="contact">
-            <div>
-                <h1>Contact Me!</h1>
-
-
-                <p class="skillsPara">
-                    You can contact me anytime on <i class="fab fa-whatsapp"></i> &amp; <i
-                        class="far fa-envelope"></i>.......
-                </p>
-            </div>
-            <div class="contactButtonContainer">
-                <div class="contactButton">
-                    <a href="https://wa.me/919506005060?text=Hii%20Himanshu!" target="_blank">
-                        <button>
-                            <div>
-                                <i class="fab fa-whatsapp"></i> Message Me!
-                            </div>
-                        </button>
-                    </a>
-
-                    <a href="https://github.com/HimanshuMishir">
-                        <button>
-                            <div>
-                                <i class="fab fa-github-square">GitHub</i>
-                            </div>
-                        </button>
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/himanshu-mishra-97ba091a8/">
-                        <button>
-                            <div>
-                                <i class="fab fa-linkedin">Linkedin</i>
-                            </div>
-                        </button>
-                    </a>
-                    <a href="mailto:hm221311@yahoo.com" target="_blank">
-                        <button>
-                            <div>
-                                <i class="far fa-envelope"></i> e-Mail :- hm221311@gmail.com
-                            </div>
-                        </button>
-                    </a>
-                </div>
-            </div>
+            <!-- Divider -->
+            <hr class="my-5">
         </div>
     </section>
 
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-white">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me!</h2>
+            <p class="text-center mb-5">Feel free to reach out to me via WhatsApp, GitHub, LinkedIn, or email for any inquiries or collaborations.</p>
+            <div class="text-center">
+                <a href="https://wa.me/919506005060?text=Hello%20Himanshu!" target="_blank" class="btn btn-success btn-lg m-2" aria-label="Message me on WhatsApp">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+                <a href="https://github.com/HimanshuMishra" target="_blank" class="btn btn-dark btn-lg m-2" aria-label="Visit my GitHub">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/himanshu-mishra-97ba091a8/" target="_blank" class="btn btn-primary btn-lg m-2" aria-label="Connect with me on LinkedIn">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="mailto:hm221311@yahoo.com" class="btn btn-outline-secondary btn-lg m-2" aria-label="Send me an email">
+                    <i class="far fa-envelope"></i> Email
+                </a>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
-    <footer class="footer mt-auto py-3">
-        <div class="container">
-            <span class="text-muted">
-                Copyright
-                <i class="far fa-copyright">
-                    2020 Himanshu
-                </i>
-            </span>
-            <p>
-                <span>
-                    Images are from
+    <footer class="bg-light text-center text-lg-start">
+        <div class="container p-4">
+            <div class="text-center">
+                <span class="text-muted">
+                    &copy; 2025 Himanshu Mishra. All Rights Reserved.
                 </span>
-                <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2049242"
-                    target="_blank">Pixabay </a> &amp;
-                <span>
-                    <a href="https://unsplash.com/s/photos/trading?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
-                        target="_blank">Unsplash</a>
-                </span>
-            </p>
-
+                <p class="mt-2">
+                    Images provided by <a href="https://pixabay.com/" target="_blank" rel="noopener noreferrer">Pixabay</a> &amp; <a href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">Unsplash</a>.
+                </p>
+            </div>
         </div>
-
     </footer>
 
-    <!-- Bootstrap Javascript -->
+    <!-- Bootstrap and Dependencies JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
